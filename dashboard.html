@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Deepfake Detection</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(to right, #8daeec, #2a5298);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .card {
+      background-color: rgb(0, 0, 0);
+      padding: 8rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .btn-custom {
+      background-color: #619ea7;
+      color: white;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .btn-custom:hover {
+      background-color: #92fe9d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2 class="text-white">Welcome to Deepfake Detection</h2>
+    <p class="text-white">Select a module to begin:</p>
+    <div class="d-grid gap-3 mt-4">
+      <a href="audio" class="btn btn-custom" style="font-size: 1.2rem; padding: 10px;">🎧 Audio Deepfake Detection</a>
+      <a href="image" class="btn btn-custom" style="font-size: 1.2rem; padding: 10px;">🖼️ Image Deepfake Detection</a>
+    </div>    
+  </div>
+</body>
+</html>
